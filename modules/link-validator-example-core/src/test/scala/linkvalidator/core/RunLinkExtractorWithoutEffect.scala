@@ -11,7 +11,7 @@ import linkvalidator.core.parser.TransformerWithoutEffect
 object RunLinkExtractorWithoutEffect {
 
   @main
-  def run(): Unit = {
+  def runWithoutEffect(): Unit = {
 
 //    val markdownToHtmlTransformer = LaikaTransformer.from(ReStructuredText).to(HTML).withRawContent.build
     val markdownToHtmlTransformer = LaikaTransformer.from(Markdown).to(HTML).withRawContent.build
